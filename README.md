@@ -1,7 +1,7 @@
 # 🛒 Plataforma de E-commerce<br>
 
 ## 📱 Resultado de como ficou<br>
-![Resultado final do projeto](image/resultado.jpg)
+![Resultado final do projeto](image/resultado.png)
 
 ## 🚀 Tecnologias<br>
 Esse projeto foi desenvolvido com as seguintes tecnologias: HTML5, CSS3, JS.
