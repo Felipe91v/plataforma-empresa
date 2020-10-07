@@ -1,4 +1,4 @@
-# 🛒 Plataforma de E-commerce<br>
+# 🛒 Plataforma de e-commerce<br>
 
 ## 🖥 Visualização
 ![Resultado final do projeto](image/desktop.jpg)
@@ -27,12 +27,12 @@ O site ainda está em desenvolvimento e as próximas atualizações serão volta
 ---
 
 ## 🌈 Seja um dos contribuidores<br>
-Quer fazer parte desse projeto? É simples!
+Quer fazer parte desse projeto? É simples!<br>
 Faço um Fork nele colocando suas modificações e depois mande uma solicitação.
 
 ## 📝 Licença<br>
 O uso não autorizado para comercialização deste material sem permissão expressa e por escrito.<br>
 
 <p align= center>
-Orgulhosamente feito por <strong>🏰 Iuri Silva</strong>
+🏰 Orgulhosamente feito por <strong>Iuri Silva</strong>
 </p>
