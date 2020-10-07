@@ -1,16 +1,38 @@
 # 🛒 Plataforma de E-commerce<br>
 
-![Resultado final do projeto](image/resultado.png)
+## 🖥 Visualização
+![Resultado final do projeto](image/desktop.jpg)
 
-## 🚀 Tecnologias<br>
-Esse projeto foi desenvolvido com as seguintes tecnologias: HTML5, CSS3, JS.
+## 🌳 Projeto<br>
+Plataforma de e-commerce com o objetivo divulgar meus serviços.<br><br>
 
-## 💻 Projeto<br>
-Plataforma de E-commerce com HTML5, CSS3 e JS.
+## 🛠 Tecnologias utilizadas
+Para o desenvolvimento deste site utilizei as seguintes tecnologias:
+- Visual Studio Code;
+- Figma;
+- HTML;
+- CSS;
+- JQuery;
+- JavaScript;
+- UI Design;
 
-## 📝 Licença<br>
-O uso não autorizado e/ou duplicação deste material sem permissão expressa e por escrito.<br>
+## 📌 Ajustes e melhorias
+O site ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+
+(Próxima atualização: 22/10/2020)
+
+- [ ] Responsividade em tela pequenas;
+- [ ] Responsividade em tela grandes;
+- [ ] Mudanças nas ilustrações; 
+---
 
 ## 🌈 Seja um dos contribuidores<br>
 Quer fazer parte desse projeto? É simples!
 Faço um Fork nele colocando suas modificações e depois mande uma solicitação.
+
+## 📝 Licença<br>
+O uso não autorizado para comercialização deste material sem permissão expressa e por escrito.<br>
+
+<p align= center>
+Orgulhosamente feito por <strong>🏰 Iuri Silva</strong>
+</p>
