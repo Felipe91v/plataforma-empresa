@@ -4,11 +4,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Plataforma de E-commerce</title>
+    <title>Empresa</title>
     <!--Ícones no navegador-->
     <link rel="icon" type="image/png" href="image/logoNavegador.png" sizes="32x32">
-    <!--Bootstrap-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
     <!--Ícones do Font Awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <!--Meus Styles-->
@@ -19,7 +17,7 @@
     <!--Barra de navegação-->
     <section id="headerNav">
         <a href="#">
-            <h1 class="logo">E-commerce</h1>
+            <h1 class="logo">Empresa</h1>
         </a>
         <a class="btn-menu"><i class="fa fa-bars"></i></a>
         <nav class="menu">
@@ -29,73 +27,38 @@
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#portfolio">Portfólio</a></li>
                 <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#" id="contatoMenu" data-toggle="modal" data-target="#exampleModal">Contato</a></li>
+                <!--<li><a href="#" id="contatoMenu" data-toggle="modal" data-target="#exampleModal">Contato</a></li>-->
             </ul>
         </nav>
-
-        <img src="image/button.png" alt="Entrar em contato" id="buttonContato" data-toggle="modal"
-            data-target="#exampleModal" />
+        <!--<img src="image/button.png" alt="Entrar em contato" id="buttonContato" data-toggle="modal"
+            data-target="#exampleModal" />-->
     </section>
 
     <!--Header-->
     <header id="home">
         <section>
             <article>
-                <h4>Serviços com qualidade e excelência.</h4>
                 <h1>
-                    Saia da caixa,<br />
+                    Saia da caixa,<br>
                     coloque a sua ideia no mundo!
                 </h1>
-                <p>
-                    <span class="txt-rotate"
-                        data-rotate='[ "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde nobis molestiae, aliquam fugiat commodi ea nostrum dolorum.", "Doloremque, consectetur mollitia non placeat aspernatur ipsum dolorem pariatur ipsa porro aut."]'></span>
-                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde nobis molestiae, aliquam
+                    fugiat commodi ea nostrum dolorum.</p>
             </article>
         </section>
 
-        <section>
+        <section id="ilustracaoUm">
             <img src="image/ilustracaoUm.png" alt="" />
         </section>
     </header>
 
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#454d72" fill-opacity="1"
+            d="M0,128L34.3,154.7C68.6,181,137,235,206,224C274.3,213,343,139,411,138.7C480,139,549,213,617,213.3C685.7,213,754,139,823,117.3C891.4,96,960,128,1029,133.3C1097.1,139,1166,117,1234,138.7C1302.9,160,1371,224,1406,256L1440,288L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z">
+        </path>
+    </svg>
+
     <main>
-        <!--Modal-->
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">
-                            Entrando em contato
-                        </h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <form method="POST" name="f1" action="">
-                            <p>Nome:</p>
-                            <input type="name" name="nome" placeholder="Digite seu nome aqui" required />
-                            <p>Email:</p>
-                            <input type="email" name="email" onblur="" placeholder="Digite seu melhor email" required />
-                            <div id="msgemail"></div>
-
-                            <textarea name="mensagem" cols="30" rows="5"
-                                placeholder="Diga o motivo do seu contato conosco" required></textarea>
-
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">
-                            Fechar
-                        </button>
-                        <button type="submit" value="Enviar" class="btn btn-cor">
-                            Enviar
-                        </button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <!--scroll top-->
         <div id="stop" class="scrollTop">
@@ -106,8 +69,8 @@
         <section id="cards">
             <div>
                 <article>
-                    <img src="image/info.png" alt="ícone do card" />
-                    <h1>Lorem</h1>
+                    <img src="image/seguranca.png" alt="ícone do card" />
+                    <h1>Segurança</h1>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
                         explicabo quas eveniet.
@@ -115,8 +78,8 @@
                 </article>
 
                 <article>
-                    <img src="image/info.png" alt="ícone do card" />
-                    <h1>Lorem</h1>
+                    <img src="image/comunidade.png" alt="ícone do card" />
+                    <h1>Comunidade</h1>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
                         explicabo quas eveniet.
@@ -124,8 +87,8 @@
                 </article>
 
                 <article>
-                    <img src="image/info.png" alt="ícone do card" />
-                    <h1>Lorem</h1>
+                    <img src="image/criatividade.png" alt="ícone do card" />
+                    <h1>Criatividade</h1>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
                         explicabo quas eveniet.
@@ -133,8 +96,8 @@
                 </article>
 
                 <article>
-                    <img src="image/info.png" alt="ícone do card" />
-                    <h1>Lorem</h1>
+                    <img src="image/grafico.png" alt="ícone do card" />
+                    <h1>Gráfico</h1>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
                         explicabo quas eveniet.
@@ -154,17 +117,12 @@
                     <h2>Sobre o que fazemos</h2>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-                        quaerat nam deserunt officia labore? Voluptas, sed minus
-                        reiciendis rerum quod optio! Impedit sed commodi debitis voluptate
-                        temporibus assumenda ipsa exercitationem.
+                        quaerat nam deserunt officia labore?
                     </p>
-                    <h3>Click para ver os valores</h3>
+                    <h3>Lorem ipsum dolor sit amet</h3>
                 </article>
                 <section id="infoSobre">
                     <article>
-                        <div>
-                            <img src="image/setaBottom.png" alt="" />
-                        </div>
                         <h4>Lorem Ipsum</h4>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
@@ -172,9 +130,6 @@
                         </p>
                     </article>
                     <article>
-                        <div>
-                            <img src="image/setaBottom.png" alt="" />
-                        </div>
                         <h4>Lorem Ipsum</h4>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
@@ -182,9 +137,6 @@
                         </p>
                     </article>
                     <article>
-                        <div>
-                            <img src="image/setaBottom.png" alt="" />
-                        </div>
                         <h4>Lorem Ipsum</h4>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
@@ -192,9 +144,6 @@
                         </p>
                     </article>
                     <article>
-                        <div>
-                            <img src="image/setaBottom.png" alt="" />
-                        </div>
                         <h4>Lorem Ipsum</h4>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
@@ -214,49 +163,31 @@
             </p>
 
             <div>
-                <article>
-                    <img src="image/info.png" alt="ícone do card" />
-                </article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+            </div>
+        </section>
 
-                <article>
-                    <img src="image/info.png" alt="ícone do card" />
-                </article>
-
-                <article>
-                    <img src="image/info.png" alt="ícone do card" />
-                </article>
-
-                <article>
-                    <img src="image/info.png" alt="ícone do card" />
-                </article>
-
-                <article>
-                    <img src="image/info.png" alt="ícone do card" />
-                </article>
-
-                <article>
-                    <img src="image/info.png" alt="ícone do card" />
-                </article>
-
-                <article>
-                    <img src="image/info.png" alt="ícone do card" />
-                </article>
-
-                <article>
-                    <img src="image/info.png" alt="ícone do card" />
-                </article>
+        <section id="email">
+            <h3>Entre em contato conosco</h3>
+            <div>
+                <input type="email" placeholder="Digite seu melhor email aqui...">
+                <button>Enviar</button>
             </div>
         </section>
 
         <!--Quarta seção-->
         <section id="servicos">
             <h2>Em que nossos serviços vão te ajudar?</h2>
+            <p id="descricaoServicos">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Fermentum ultrices feugiat aliquet sit in nulla.</p>
             <img src="image/ilustracaoTres.png" alt="" class="teste" />
 
             <section>
                 <article class="separarBoxs boxsFrente">
                     <article class="flexBoxs">
-                        <img src="image/info.png" alt="" />
                         <div>
                             <h3>Lorem Ipsum</h3>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
@@ -264,7 +195,6 @@
                     </article>
 
                     <article class="flexBoxs">
-                        <img src="image/info.png" alt="" />
                         <div>
                             <h3>Lorem Ipsum</h3>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
@@ -274,7 +204,6 @@
 
                 <article class="separarBoxs">
                     <article class="flexBoxs">
-                        <img src="image/info.png" alt="" />
                         <div>
                             <h3>Lorem Ipsum</h3>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
@@ -282,7 +211,6 @@
                     </article>
 
                     <article class="flexBoxs">
-                        <img src="image/info.png" alt="" />
                         <div>
                             <h3>Lorem Ipsum</h3>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
@@ -292,7 +220,6 @@
 
                 <article class="separarBoxs boxsFrente">
                     <article class="flexBoxs">
-                        <img src="image/info.png" alt="" />
                         <div>
                             <h3>Lorem Ipsum</h3>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
@@ -300,7 +227,6 @@
                     </article>
 
                     <article class="flexBoxs">
-                        <img src="image/info.png" alt="" />
                         <div>
                             <h3>Lorem Ipsum</h3>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
@@ -311,68 +237,16 @@
         </section>
     </main>
 
-    <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-md-6">
-                    <h6>Local</h6>
-                    Cidade: Lorem Ipsum <br>
-                    Bairro: Lorem Ipsum<br>
-                    Rua: Lorem Ipsum<br>
-
-                    <br>
-                    ecommerce@gmail.com<br>
-                    (14) 99333-3333
-                </div>
-
-                <div class="col-xs-6 col-md-3">
-                    <h6>Categorias</h6>
-                    <ul class="footer-links">
-                        <li><a href="#">Lorem Ipsum</a></li>
-                        <li><a href="#">Lorem Ipsum</a></li>
-                        <li><a href="#">Lorem Ipsum</a></li>
-                        <li><a href="#">Lorem Ipsum</a></li>
-                        <li><a href="#">Lorem Ipsum</a></li>
-                    </ul>
-                </div>
-
-
-                <div class="col-xs-6 col-md-3">
-                    <h6>Menu</h6>
-                    <ul class="footer-links">
-                        <li><a href="#home">Início</a></li>
-                        <li><a href="#sobre">Sobre</a></li>
-                        <li><a href="#portfolio">Portfólio</a></li>
-                        <li><a href="#servicos">Serviços</a></li>
-                        <li><a href="#" data-toggle="modal" data-target="#exampleModal">Contato</a></li>
-                    </ul>
-                </div>
-            </div>
-            <hr>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-sm-6 col-xs-12">
-                    <p class="copyright-text">Copyright 2020 by <strong>Harpia</strong>. Todos os direitos reservados.
-                    </p>
-                </div>
-
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <ul class="social-icons">
-                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-                        <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-                    </ul>
-                </div>
-            </div>
+    <footer>
+        <h2>Empresa</h2>
+        <div>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-facebook"></i>
         </div>
     </footer>
 
-    <!--Scripts do Bootstrap-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <!--Meus Scripts-->
     <script src="js/script.js"></script>
 </body>
