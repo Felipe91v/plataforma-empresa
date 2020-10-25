@@ -1,7 +1,7 @@
 # 🛒 Plataforma empresa<br>
 
 ## 🖥 Visualização
-![Resultado final do projeto](image/resultado.png)
+![Resultado final do projeto](image/resultado.jpg)
 
 ## 🛠 Tecnologias utilizadas
 Para o desenvolvimento deste site utilizei as seguintes tecnologias:
