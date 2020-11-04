@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
+  font-family: 'Poppins', sans-serif;  
+  } 
+
 body {
   overflow-x: hidden;
 }
@@ -19,19 +21,19 @@ a:hover {
 ul {
   list-style: none;
 }
-/*Barra de navegação*/
 
+/*Barra de navegação*/
 #headerNav {
-  width: 100%;
-  padding: 0.5% 0% 0.5% 0%;
-  position: absolute;
+  width: 100vw;
+  position: fixed;
   top: 0;
-  z-index: 2;
-  padding: 10px 40px;
-  background-color: #454d72;
+  z-index: 2;    
+  box-shadow: 1px 3px 4px 1px rgb(0 0 0 / 14%);
+  padding: 0.8rem 1.5rem;
+  background: #454d72;
 }
+
 .btn-menu {
-  width: 56px;
   height: 56px;
   font-size: 30px;
   color: #fff;
@@ -96,16 +98,17 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 30px 100px;
+  padding: 0.8rem 1.5rem;
   background-color: #454d72;
 }
 header section article h1 {
-  width: 70%;
+  width: 80%;
   padding-top: 10px;
-  font-size: 32px;
+  font-size: clamp(1.5em, 2.2em + 1vw, 4.5em);
   font-weight: 700;
   color: #fff;
 }
+
 header p {
   width: 75%;
   padding-top: 20px;
@@ -116,7 +119,7 @@ header section {
   width: 50%;
 }
 header #ilustracaoUm{
-    text-align: right;
+    text-align: center;
 }
 header section img {
   width: 400px;
@@ -129,20 +132,21 @@ header section img {
   overflow: hidden;
 }
 #cards div {
-  display: flex;
-  height: auto;
-  padding: 0px 80px 25px 80px;
-  flex-wrap: wrap;
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    flex-wrap: wrap;
 }
 #cards article {
   text-align: center;
   height: auto;
+  max-width: 350px;
   background-color: #f8f8f8;
-  padding: 25px;
+  padding: 25px 0px;
   border-radius: 15px;
-  margin: 20px;
-  flex-basis: 250px;
-  flex-grow: 1;
+  margin: 20px 30px;
   box-shadow: 5px 5px 5px rgba(24, 24, 24, 0.158);
   transition: all 0.5s;
 }
@@ -171,7 +175,7 @@ header section img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 50px 100px;
+  padding: 0 10px;
   background-color: #f8f8f8;
 }
 #sobre #sobreNos {
@@ -187,7 +191,7 @@ header section img {
   background-color: #454d72;
   color: #fff;
   border-radius: 20px;
-  padding: 50px 50px 0px 50px;
+  padding: 50px 25px 0px 25px;
 }
 #sobre #sobreNos #headSobre p {
   padding: 20px 0px;
@@ -209,7 +213,6 @@ header section img {
 #sobreNos #infoSobre article {
   float: left;
   width: 50%;
-  height: 150px;
   margin-bottom: 5px;
   padding-bottom: 30px;
 }
@@ -233,12 +236,13 @@ header section img {
 /*Terceira seção*/
 #portfolio {
   margin-top: 50px;
-  padding: 25px 80px;
+  padding: 1rem 0.5rem;
   text-align: center;
 }
 #portfolio h2 {
   font-size: 30px;
   font-weight: 600;
+  margin-bottom: 3.5rem;
 }
 #portfolio p {
   color: #4d4d4d;
@@ -254,7 +258,7 @@ header section img {
   position: relative;
   height: 300px;
   border-radius: 15px;
-  margin: 20px;
+  margin: 20px 3px;
   flex-basis: 500px;
   flex-grow: 1;
   box-shadow: 5px 5px 5px rgba(24, 24, 24, 0.158);
@@ -270,95 +274,100 @@ header section img {
 }
 
 /*Email*/
-#email{
+#email { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   background-color: #454d72;
   width: 100%;
   height: 200px;
-  padding: 0px 100px;
+  padding: 0px 20px;
+  color: #fff;
+}
+
+#email div{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  background-color: #454d72;
   color: #fff;
 }
 #email h3{
-  font-size: 26px;
+  font-size: 20px;
+  margin-bottom: 20px ;
   text-transform: uppercase;
 }
 #email div input{
-  width: 70%;
+  width: 210px;
   border: 0;
-  height: 50px;
-  border-radius: 0px;
-  padding-left: 15px;
-  font-size: 16px;
+  height: 40px;
+  border-radius: 10px 0 0 10px;
+  font-size: 13px;
+  padding-left: 5px;
 }
-#email div button{
-  width: 30%;
+#email div button{   
+  width: 100px;
   border: 0;
-  height: 50px;
+  height: 40px;
   color: #fff;
   background-color: #ff4129;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 18px;
   cursor: pointer;
+  border-radius: 0 10px 10px 0;
 }
 #email div button:hover{
   background-color: #db341e;
 }
-#email div{
-  width: 500px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+
 
 /*Quarta seção*/
 #servicos {
-  padding: 50px 100px 100px 100px;
+  position: relative;
+  padding: 50px 3px;
   text-align: center;
   height: auto;
   width: 100%;
-  position: relative;
-  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  justify-content: center;
+  
 }
 #servicos h2 {
-  
-  font-size: 28px;
+  font-size: 33px;
   font-weight: 600;
+  margin: 2px 20px;
+  text-align: center;
 }
+
 #servicos #descricaoServicos{
   margin: 0 auto;
-  width: 500px;
   color: #4d4d4d;
   font-weight: 300;
-  padding-bottom: 75px;
+  padding: 35px 26px;
+  font-size: 18px;
 }
 #servicos section .flexBoxs {
-  text-align: left;
   height: auto;
   background-color: #f8f8f8;
   padding: 20px;
   border-radius: 15px;
   margin: 20px 0px;
-  width: 300px;
   text-align: center;
-  max-width: 350px;
-  min-width: 300px;
+  width: clamp(347px, 350px, 360px);
   overflow: hidden;
   box-shadow: 5px 5px 5px rgba(24, 24, 24, 0.158);
   transition: all 0.5s;
 }
+
 #servicos section .flexBoxs:hover {
   transform: scale(1.1);
   box-shadow: 0px 3px 0px rgba(24, 24, 24, 0.158);
 }
-#servicos section .flexBoxs img {
-  margin-top: 5px;
-  float: left;
-  width: 20%;
-}
+
 #servicos section .flexBoxs div {
   float: left;
   width: 100%;
@@ -373,23 +382,19 @@ header section img {
 }
 #servicos section .separarBoxs {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
-}
-#servicos section .boxsFrente {
-  margin-left: 30px;
-  margin-right: 30px;
 }
 
 /*Estilo da animação*/
 #servicos .teste {
   width: 200px;
-  animation: MoveUpDown 3s linear infinite;
   position: absolute;
-  top: 0;
   left: 50%;
+  animation: MoveUpDown 3s linear infinite;
   transform: translate(-50%, 0%);
 }
+
 @keyframes MoveUpDown {
   0%,
   100% {
@@ -434,10 +439,11 @@ footer{
   height: 75px;
   display: flex;
   justify-content: space-between;
-  align-items:center;
+  align-items: center;
   color: #fff;
-  padding: 0px 100px;
+  padding: 0px 24px;
 }
+
 footer div .fa{
   font-size: 24px;
   padding-left: 25px;
@@ -462,8 +468,9 @@ footer div .fa{
   }
   #headerNav {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 10px 100px;
+    padding: 10px 30px;
     box-shadow: 0px 1px 5px #2d355b;
   }
   .menu {
@@ -486,10 +493,24 @@ footer div .fa{
     font-weight: 400;
     text-decoration: none;
   }
+
+  #home section article{
+    margin-left: 2.5rem;
+  }
+
+  #home section article h1{
+    font-size: clamp(2.9em, 3em + 1vw, 5.5em);
+  }
+ 
+#servicos section .boxsFrente {
+  margin: 0 30px;
+}
+
 }
 
 /*Responsividade de Tablet*/
 @media screen and (max-width: 1200px) {
+  
   #home section:nth-child(2) {
     display: none;
   }
@@ -497,10 +518,7 @@ footer div .fa{
     width: 100%;
   }
   header {
-    padding: 30px 40px;
-  }
-  #cards article {
-    flex-basis: 300px;
+    padding: 0.8rem 1.2rem;
   }
   #portfolio article {
     flex-basis: 300px;
@@ -524,20 +542,29 @@ footer div .fa{
   }
 }
 
-@media screen and (max-width: 900px) {
-  #servicos section article {
-    flex-basis: 290px;
-  }
+@media screen and (min-width: 900px){
+  #email {
+    justify-content: space-around;
+    flex-direction: inherit;
 }
 
-@media screen and (max-width: 760px) {
-  #servicos section article {
-    flex-basis: 48%;
+  #email div input{
+    width: 300px;
+    height: 50px;
+    font-size: 15px;
+    padding-left: 5px;
   }
-  #servicos section .boxsFrente {
-    margin-left: 0px;
-    margin-right: 0px;
+
+  #email div button {
+    width: 150px;
+    height: 50px;
+   }
+
+   #email h3 {
+  font-size: 2.2rem;
+  margin-bottom: initial;
   }
+   
   #sobreNos #infoSobre article {
     display: block;
     float: none;
@@ -551,13 +578,18 @@ footer div .fa{
   #sobreNos #infoSobre article:nth-child(4) {
     padding-left: 0px;
   }
+
+  #servicos section .separarBoxs{
+    justify-content: space-between;
+  }  
+
 }
-@media screen and (max-width: 650px) {
-  #servicos section article {
-    width: 100%;
-    float: both;
-  }
-  #servicos section .flexBoxs img {
-    display: none;
+
+
+@media screen and (min-width: 680px){
+  #servicos section .flexBoxs {
+    margin: 20px 10px;
   }
 }
+
+
